@@ -1,5 +1,6 @@
 class User:
     name = 'John'
+    
     def show(self):
         return self.name
     
@@ -9,6 +10,7 @@ print(user.show())
 class Student:
     name = None
     surname = None
+    
     def show(self):
         return f"{self.name} {self.surname}"
 

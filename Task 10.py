@@ -8,6 +8,7 @@ user = User()
 class Employee:
     name = 'Eugene'
     surname = 'Nechaev'
+    
     def __init__(self):
         print(self.name + ' ' + self.surname)
 

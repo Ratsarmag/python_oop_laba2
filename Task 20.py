@@ -22,34 +22,40 @@ emp2 = Employee('Eric')
 
 print(emp1 == emp2) - False
 
+
 emp1 = Employee('John') 
 emp2 = Employee('Eric') 
 
 print(emp1 == emp1) - True
+
 
 emp1 = Employee('John') 
 emp2 = Employee('John') 
 
 print(emp1 == emp2) - False
 
+
 emp1 = Employee('John') 
 emp2 = Employee('Eric') 
 
 print(emp1 != emp1) - False
+
 
 emp1 = Employee('John') 
 emp2 = emp1 
 
 print(emp1 == emp2)  - True
 
+
 emp1 = Employee('John') 
 emp2 = Employee('Eric') 
 
 print(emp1 != emp2)  - True
 
+
 emp1 = Employee('John') 
 emp2 = emp1 
-emp2.name = 'ric' 
+emp2.name = 'Eric' 
 
 print(emp1 == emp2) - True
 '''
